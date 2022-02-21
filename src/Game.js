@@ -1,8 +1,15 @@
 import React from 'react'
+import './Game.css'
 
 function Game() {
   return (
-    <div>Game</div>
+    <div className="game">
+        <header className="app__header">
+          <div className="game__container">
+            <div className="snake"></div>
+          </div>
+        </header>
+      </div>
   )
 }
 
