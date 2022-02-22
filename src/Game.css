@@ -1,0 +1,9 @@
+.game__container {
+    border: 2px solid #fff;
+    padding: 8em 10em;
+}
+.snake {
+    width: 30px;
+    height: 10px;
+    background: #fff;
+}
