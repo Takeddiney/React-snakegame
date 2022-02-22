@@ -1,9 +1,22 @@
 .game__container {
     border: 2px solid #fff;
-    padding: 8em 10em;
+    width: 400px;
+    height: 400px;
+    position: relative;
 }
-.snake {
-    width: 30px;
-    height: 10px;
+.snake__dot {
+    position: absolute;
+    height: 2%;
+    width: 2%;
     background: #fff;
+    left: 0;
+    top: 0;
+    border: 1px solid #000;
+}
+
+.snake__dot.sec {
+    left: 2%;
+}
+.snake__dot.th {
+    left: 4%;
 }
