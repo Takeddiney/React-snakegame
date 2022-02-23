@@ -1,22 +1,20 @@
 .game__container {
     border: 2px solid #fff;
-    width: 400px;
+    width: 60%;
     height: 400px;
     position: relative;
 }
-.snake__dot {
+.snake__dot, .snake__food {
     position: absolute;
     height: 2%;
     width: 2%;
     background: #fff;
-    left: 0;
-    top: 0;
     border: 1px solid #000;
+    z-index: 2;
 }
 
-.snake__dot.sec {
-    left: 2%;
-}
-.snake__dot.th {
-    left: 4%;
+.snake__food
+{
+    z-index: 1;
+    background: #fff;
 }

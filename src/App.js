@@ -4,9 +4,10 @@ import {
 import Loading from './Loading';
 import Game from "./Game";
 import './App.css';
+import { Component } from "react";
 
-function App() {
-
+class App extends Component {
+render() {
   return (
     <Router>
       <Switch>
@@ -20,5 +21,5 @@ function App() {
     </Router>
   )
 }
-
+}
 export default App;
