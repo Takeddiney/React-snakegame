@@ -9,6 +9,7 @@ import { Component } from "react";
 class App extends Component {
 render() {
   return (
+    <header className="app__header">
     <Router>
       <Switch>
         <Route path="/game">
@@ -19,6 +20,7 @@ render() {
         </Route>
       </Switch>
     </Router>
+    </header>
   )
 }
 }
