@@ -1,0 +1,26 @@
+#GameBoard {
+	position: relative;
+	margin: auto;
+	border-style: solid;
+    border: 1px solid #fff !important;
+}
+
+#GameBoard .Block {
+	position: absolute;
+    background: #b3b3b3;
+}
+
+#GameBoard #GameOver {
+	text-align: center;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-around;
+}
+
+#GameBoard #Score {
+	position: relative;
+	top: 105%;
+	text-align: center;
+	text-transform: lowercase;
+}

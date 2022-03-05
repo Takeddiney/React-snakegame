@@ -12,7 +12,6 @@ function Loading() {
     }, [])
     return (
       <div className="app">
-        <header className="app__header">
           {loading ?
             <h1 className='app__title'>
               SNAKEY
@@ -22,7 +21,6 @@ function Loading() {
               START GAME
             </Link>
           }
-        </header>
       </div>
     );
 }
