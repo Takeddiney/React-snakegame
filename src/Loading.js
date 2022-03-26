@@ -21,7 +21,7 @@ function Loading() {
             <Link className="start__button" to="/game">
               Jouer seul
             </Link>
-            <a href="https://google.com" className="start__button">
+            <a href="https://thesnakeygamemultiplayer.netlify.app/" className="start__button">
              Multijoueur
             </a>
             </div>
