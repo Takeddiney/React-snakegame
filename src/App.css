@@ -52,6 +52,13 @@
   border-radius: 50px;
   cursor: pointer;
   text-decoration: none;
+  margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .start__button {
+    display: block;
+  }
 }
 
 @keyframes glitch {
