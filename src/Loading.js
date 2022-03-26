@@ -17,9 +17,14 @@ function Loading() {
               SNAKEY
             </h1>
             :
+            <div>
             <Link className="start__button" to="/game">
-              START GAME
+              Jouer seul
             </Link>
+            <a href="https://google.com" className="start__button">
+             Multijoueur
+            </a>
+            </div>
           }
       </div>
     );
